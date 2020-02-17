@@ -1,0 +1,15 @@
+posts
+create post card at the top,
+list of posts below it
+
+SPA
+
+API
+Model Post.cs				v
+DbSet<Post>				v
+iRepo IPostManagementRepository.cs	x
+Repo PostManagementRepository.cs	x
+PostForCreateDto.cs			x
+PostsForLisDto.cs			x
+Mappings in AutoMapper			x
+PostController.cs			x

@@ -1,3 +1,20 @@
-<p>
-  lists works!
-</p>
+<div class="container mt-5">
+<div class="row">
+
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-2">
+    <h2> Search:</h2>
+  </div>
+  <div class="col-sm-4">
+    <form #searchForm="ngForm" id="searchForm">
+      <input class="form-control" type="text" name="search">
+    </form>
+  </div>
+  <div class="col-2">
+    <button [disabled]="!searchForm.dirty" form="searchForm" class="btn btn-success">Lookup</button>
+  </div>
+</div>
+</div>
+
+<div class="row"></div>
